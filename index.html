@@ -5,6 +5,7 @@
     <title>John Doe Portfolio</title>
   </head>
   <body>
+    <!-- بسم الله الرحمن الرحيم هنبدا من العنوان اول حاجه والوصف -->
     <h1 style="text-align: center; color: rgb(19, 99, 197)">
       John Doe Portfolio
     </h1>
@@ -12,7 +13,10 @@
       Professional web developer
     </p>
     <h2 style="color: rgb(19, 99, 197)">about me</h2>
+    <!-- طالما هنعرض داتا يبقي جدول علطول متفكرش -->
     <table>
+
+      <!-- 👇هنعمل صف واحد فيه عمودين عمود للصورة👇 وعمود للتيكست -->
       <tr>
         <td>
           <img
@@ -23,6 +27,7 @@
           />
         </td>
         <td>
+          <!-- دا عمود التيكست والاتش3 والليست  -->
           <p>
             Hello! I'm John Doe, a passionate web developer with over 5 years of
             experience in creating innovative digital solutions. I specialize in
@@ -45,20 +50,52 @@
           </ul>
         </td>
       </tr>
+      <!-- باركو لاخوكو ابو جبل كدا خلصنا الجدول الاول  -->
     </table>
-    <table style="width: 10%;">
-    <tr style="size: 10%;">
-      <td><a href="https://www.facebook.com"><img src="imgs/icons/facebook.png" alt="Facebook" style="width: 75px;"></a></td>
-      <td><a href="https://www.linkedin.com"><img src="imgs/icons/linkedin.png" alt="LinkedIn" style="width: 75px;"></a></td>
-      <td><a href="https://www.instagram.com"><img src="imgs/icons/instagram.png" alt="Instagram" style="width: 75px;"></a></td>
-      <td><a href="https://github.com"><img src="imgs/icons/github.png" alt="GitHub" style="width: 75px;"></a></td>
-    </tr>
-    </table><br><br>
+    <!-- دا جدول السوشيال ميديا -->
+    <table style="width: 10%">
+      <tr style="size: 10%">
+        <td>
+          <a href="https://www.facebook.com"
+            ><img
+              src="imgs/icons/facebook.png"
+              alt="Facebook"
+              style="width: 75px"
+          /></a>
+        </td>
+        <td>
+          <a href="https://www.linkedin.com"
+            ><img
+              src="imgs/icons/linkedin.png"
+              alt="LinkedIn"
+              style="width: 75px"
+          /></a>
+        </td>
+        <td>
+          <a href="https://www.instagram.com"
+            ><img
+              src="imgs/icons/instagram.png"
+              alt="Instagram"
+              style="width: 75px"
+          /></a>
+        </td>
+        <td>
+          <a href="https://github.com"
+            ><img src="imgs/icons/github.png" alt="GitHub" style="width: 75px"
+          /></a>
+        </td>
+      </tr>
+    </table>
+    <br /><br />
+    <!-- بس كدا خلصنا عن نفسي ونتكلم عن الخبرات بتاعتي في الشغل 
+     ودا وجع الدماغ بقي -->
     <h2 style="color: rgb(15, 108, 185)">Experience time line</h2>
     <table border="1" style="width: 100%" align="center">
+      <!-- المهم ان دا وصف الجدول والطبيغعي بتاعه بيتسنطر في النص -->
       <caption>
         Professional Experience Overview
       </caption>
+      <!-- راس الجدول -->
       <thead>
         <tr style="background-color: rgb(15, 108, 185); color: white">
           <th>Company</th>
@@ -68,8 +105,12 @@
           <th>Dates</th>
         </tr>
       </thead>
+      <!-- المحتوي -->
       <tbody>
         <tr>
+          <!-- عمود اول شركه علشان يضم صفين لازم احذف من الصف التاني صف 
+          واعمل روو سبان 2 عشان يضم الصفين دول في عمود واحد 
+          وبعدين اعمل نفس الحركه مع اللوجو بتاع الشركه -->
           <td rowspan="2">TechCorp Solutions</td>
           <td rowspan="2">
             <img
@@ -89,6 +130,7 @@
           </td>
           <td>2020-2023</td>
         </tr>
+          <!-- الصف االثاني اللي خدت من صف اللوجو ضميته في الصف الاول  -->
         <tr>
           <td>full-stack developer</td>
           <td>
@@ -142,26 +184,37 @@
         </tr>
       </tbody>
       <tfoot>
+        <!-- هنعمل صف واحد مغطي علي الخمس اعمده ونكتب فيه الخبره -->
         <tr>
           <td colspan="5">Total Experience: 5+ years in web development</td>
         </tr>
       </tfoot>
+      <!-- خلصنا الجدول الخاص بالخبره -->
     </table>
     <h2 style="color: rgb(15, 108, 185)">contact me</h2>
     <p>
       Feel free to reach out to me using the form below: I'd love to hear from
       you!
     </p>
+    <!-- 👇هنعمل فورم علشان جواها هيحصل كذااكشن زراير ومدخلات والذي منو -->
     <form>
+      <!-- الفيلد سيت دي الحاويه االلي نعرفها لحد دلوقتي بتجمع كذا حاجه مع بعض 
+       في حاويه واحده وهنحتاج منها اتنين ودي الاولي -->
       <fieldset>
+        <!-- الليجيند دي زي وصف الحاويه او اسمها كدا -->
         <legend>Personal Information</legend>
+        <!-- جدول بقي علشان نرص كل حاجه فقلب الحاويه -->
         <table>
           <tr>
-            <td width="15%"><label for="name">first Name:</label></td>
+            <td width="15%">
+              <label for="name">first Name:</label>
+            </td>
             <td width="35%">
               <input type="text" id="name" name="name" required />
             </td>
-            <td width="15%"><label for="last-name">Last Name:</label></td>
+            <td width="15%">
+              <label for="last-name">Last Name:</label>
+            </td>
             <td width="35%">
               <input type="text" id="last-name" name="last-name" required />
             </td>
@@ -197,11 +250,14 @@
         </table>
       </fieldset>
       <br />
+      <!--دي التاني -->
       <fieldset>
         <legend>Project Details</legend>
         <table>
           <tr>
-            <td width="15%"><label for="project-type">Project Type:</label></td>
+            <td width="15%">
+              <label for="project-type">Project Type:</label>
+            </td>
             <td width="35%">
               <input type="text" id="project-type" name="project-type" />
             </td>
@@ -212,6 +268,7 @@
               <textarea
                 id="project-description"
                 name="project-description"
+                placeholder="ممكن تسيب رساله هنا عادي يعني"
               ></textarea>
             </td>
           </tr>
@@ -287,7 +344,7 @@
             </td>
           </tr>
         </table>
-        <label>how did you hear about me ?</label>
+        <label for="source">how did you hear about me ?</label>
         <!-- هقوله دلوقتي يختار من المصدر واسيب اول اختيار فاضي واعمل النيم والاي دي علشان الباك اند -->
         <select name="source" id="source">
           <option value="">-- please select</option>
@@ -297,7 +354,8 @@
         </select>
       </fieldset>
       <tr>
-        <td>
+        <!-- صف فيه عمودين علشان اخلي الزراير جنب بعض -->
+        <td> 
           <input
             type="submit"
             value="send"
@@ -316,6 +374,7 @@
           />
         </td>
       </tr>
+      <!-- عملنا الزراير والذي منو نقفل الفورم بقي ونشوف حاجه ناكلها -->
     </form>
   </body>
 </html>
